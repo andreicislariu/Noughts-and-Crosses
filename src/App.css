@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.gridContainer {
+  display: grid;
+  grid-gap: 50px;
+}
+//
