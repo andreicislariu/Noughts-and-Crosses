@@ -1,11 +1,12 @@
 import React from 'react';
+import '../App.css';
 
-const Square = () => {
+const Square = ({className, value, index, markSquare}) => {
   return (
-    <main className="">
-      <div>
-        <p>Square</p>
-      </div>
+    <main className={className} onClick={() => markSquare(index)} >
+      <span className = 'center'>
+        {value}
+      </span>
     </main>
   );
 };

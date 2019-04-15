@@ -4,6 +4,51 @@
 
 .gridContainer {
   display: grid;
-  grid-gap: 50px;
+  grid-gap: 0px;
+  /* grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px; */
+  justify-content: center;
 }
-//
+
+.square {
+  border: solid 5px black;
+  width: 200px;
+  height: 200px;
+}
+
+.center {
+  line-height: 200px;
+  height: 200px;
+  width: 200px;
+  font-size: 10em;
+}
+
+.row1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.col1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.row2 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.col2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.row3 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.col3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
